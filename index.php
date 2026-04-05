@@ -1,9 +1,11 @@
 <?php
 
+require "dbBroker.php";
+
 if(isset($_POST['username']) && isset($_POST['password'])){
     $u = $_POST['username'];
     $p = $_POST['password'];
-    
+
 }
 
 ?>
